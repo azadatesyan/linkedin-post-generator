@@ -3,7 +3,7 @@
 - [x] 1.1 Add `cheerio` and `@google/genai` to `package.json` dependencies
 - [x] 1.2 Add `GEMINI_API_KEY` to `.env.local` (and document it in README/`.env.example` if one exists)
 - [x] 1.3 Ensure the `liked_posts_summaries` table exists in Supabase with `id`, `url`, `summary`, `created_at` (no `tone` column) — confirmed via live schema introspection
-- [ ] 1.4 Update `supabase/migrations/20260815000000_create_linkedin_post_summaries.sql` to match the live table shape (drop the `tone` column) so the migration file stays a faithful record of the schema
+- [x] 1.4 Update `supabase/migrations/20260815000000_create_linkedin_post_summaries.sql` to match the live table shape (drop the `tone` column) so the migration file stays a faithful record of the schema
 
 ## 2. URL validation
 
